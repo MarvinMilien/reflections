@@ -1,1 +1,5 @@
 when you wnat to create a remote repository rather than keep everything on a local work station
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because you may want to work in your working directory with the most up to date code

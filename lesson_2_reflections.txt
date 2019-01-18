@@ -10,13 +10,25 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	as you work, you're impacting files in your working directoy. If you've made several logical changes, you can then group files related to each logical change by selecting just those files, adding them to the staging area, and then committing them. You can do this for each logical change, thus committing to your repo the groups of files related to each logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	when you want to try out a new feature that may break the code.
+
 How do the diagrams help you visualize the branch structure?
+
+	They show me the sequence of commits; what's reachable; what's not.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The commits from each branch will be interleaved together.
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	When there are conflicts, git asks you to resolve the conflicts. This allows you to ensure that humans have created all of the code. Machine learning / AI isn't sophisticated enough to understand, yet, what a human wanted.
+
